@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule pgn\.id(\d+)\.php$ pgn.php?id=$1 [QSA,L]
